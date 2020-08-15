@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <title>The Teemo Times</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 50px;
+        }
+
+        div {
+            /* position: fixed;: 스크롤해도 박스가 화면에 머물러있음*/
+            width: 300px;
+            height: 300px;
+            background-color: wheat;
+            /*position: relative;
+             position:static;: 레이아웃이 박스를 처음 위치하는 곳에 두는 것*/
+        }
+
+        .green {
+            background-color: teal;
+            height: 100px;
+            /* position: relative;
+            position:static;: 처음 위치한 곳을 기준으로 위치 수정, top, bottom, right, left 속성을 줄 수 있음
+            top: -10px;
+            left: -10px; */
+            /*position: absolute;
+            position: absolute;: 가장 가까운 relative 부모를 기준으로 이동시켜줌
+            Body is relative by default.
+            right: 0px;*/
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="green"></div>
+    </div>
+</body>
+
+</html>
