@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <title>The Teemo Times</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 50px;
+        }
+
+        span {
+            background-color: yellowgreen;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        }
+
+        p span {
+            color: white;
+        }
+
+        p~span {
+            /* p 다음으로 오는 span */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span>hello</span>
+        <p>
+            Lorem ipsum dolor sit amt consectetur adipsicing elit. Quod commodi et
+            sequi ipsam odio dolorem. <span>inside</span>
+        </p>
+        <address>hi</address>
+        <span> p next span</span>
+    </div>
+</body>
+
+</html>
+<!-- p span{} 부모 자식 관계-->
+<!-- p + span{} 형제와 바로 뒤에 오는 형제의 관계-->
+<!-- p > span{} 부모와 바로 밑 자식의 관계-->
+<!-- p ~ span{} 형제와 형제 관계 꼭 바로 뒤에 오는 형제가 아니여도 된다.-->

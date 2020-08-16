@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <title>The Teemo Times</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 50px;
+        }
+
+        span {
+            background-color: yellowgreen;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        input {
+            border: 1px solid wheat;
+        }
+
+
+        input:required {
+            border-color: tomato;
+        }
+
+        input[type="password"] {
+            background-color: thistle;
+        }
+
+        input[placeholder="username"] {
+            background-color: teal;
+        }
+
+        input[placeholder~="name"] {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <input type="text" placeholder="First name" />
+            <input type="text" placeholder="Last name" />
+            <input type="text" placeholder="username" />
+            <input type="password" required placeholder="password" />
+        </form>
+    </div>
+</body>
+
+</html>
